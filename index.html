@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>地產公司資訊展示</title>
+  <title>地產公司</title>
   <!-- 引入 Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- 自訂 CSS -->
+  <link rel="stylesheet" href="styles.css">
   <!-- 引入 Bootstrap JavaScript 套件（包含 Popper.js）-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </head>
 <body>
 
 <!-- 導覽列 -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="#">地產公司名稱</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,8 +24,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">首頁<span class="sr-only">(目前)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">首頁</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">關於我們</a>
@@ -42,18 +43,22 @@
 
 <!-- 主要內容 -->
 <div class="container mt-5">
-  <h1 class="text-center mb-4">歡迎來到地產公司</h1>
-  <p>這裡是地產公司的簡介內容。您可以在這裡輸入公司的資訊、歷史、核心價值觀等等。</p>
-  <p>我們致力於提供優質的地產服務，滿足客戶的需求。</p>
-  <p>如有任何疑問或查詢，請隨時與我們聯絡。</p>
+  <div class="jumbotron">
+    <h1 class="display-4">歡迎來到地產公司</h1>
+    <p class="lead">我們致力於提供優質的地產服務，滿足客戶的需求。</p>
+    <hr class="my-4">
+    <p>這裡是地產公司的簡介內容。您可以在這裡輸入公司的資訊、歷史、核心價值觀等等。</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">了解更多</a>
+  </div>
 </div>
 
 <!-- 底部 -->
-<footer class="footer mt-auto py-3 bg-light">
+<footer class="footer mt-auto py-3 bg-dark text-light">
   <div class="container text-center">
-    <span class="text-muted">版權所有 &copy; 2024 地產公司</span>
+    <span>版權所有 &copy; 2024 地產公司</span>
   </div>
 </footer>
+
 
 
 </body>
