@@ -1,0 +1,21 @@
+/* styles.css */
+
+body {
+  padding-top: 56px; /* 導覽列高度 */
+}
+
+.jumbotron {
+  background-color: #ffea00; /* 黃色背景 */
+}
+
+.footer {
+  background-color: #ff3f34; /* 紅色底部 */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; /* 導覽列連結文字顏色 */
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff; /* 導覽列品牌文字顏色 */
+}
