@@ -2,9 +2,13 @@
 
 body {
   padding-top: 56px; /* 導覽列高度 */
+  
 }
 
-
+.container-fluid hr{
+	border: none;
+	border-top: 2px solid 	#6C6C6C; /* 調整線條的粗細和顏色 */
+}
 
 
 
